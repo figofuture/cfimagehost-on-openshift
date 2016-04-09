@@ -1,0 +1,84 @@
+LICENSE AGREEMENT
+
+After reading this agreement carefully, if you do not agree
+to all of the terms of this agreement, you may not use this
+software. 
+
+You may produce and distribute modification instructions, 
+template files, or language files provided that they 
+contain notification that the template and language files 
+were exported from and originally created by codefuture. 
+The modifications instructions you personally create are not
+owned by codefuture as long as they contain no proprietary
+coding from codefuture. 
+
+You may not modify and/or remove any copyright notices or 
+labels on the software on each page (unless full license is 
+purchase) and in the header of each script source file.
+
+This software is licensed to you. You are not obtaining title 
+to the software or any copyrights. 
+
+You may not sublicense, rent, or lease the software for any 
+purpose. You may not redistribute, or resell this software 
+in any medium without prior written consent. 
+
+You are free to modify the code for your own personal use. 
+
+The license may be transferred to another only if you keep no 
+copies of the software.
+
+You may not use the Software in such as way as to condone or 
+encourage terrorism, promote or provide pirated software, or 
+any other form of illegal or damaging activity.
+
+This license covers one installation of the program on one 
+domain/url only.
+
+DISCLAIMER OF WARRANTY
+
+The software is provided on an "AS IS" basis, without 
+warranty of any kind, including without limitation the 
+warranties of merchantability, fitness for a particular 
+purpose and non-infringement. The entire risk as to the 
+quality and performance of the software is borne by you. 
+Should the software prove defective, you and not 
+codefuture assume the entire cost of any service and 
+repair. In addition, the security mechanisms implemented by 
+codefuture software have inherent limitations, and you 
+must determine that the Software sufficiently meets your 
+requirements. This disclaimer of warranty constitutes an 
+essential part of the agreement. 
+
+TITLE
+
+Title, ownership rights, and intellectual property rights in
+the software shall remain with codefuture. The software is 
+protected by copyright laws and treaties. Title and related 
+rights in the content generated through the software is the 
+property of the applicable content owner and may be 
+protected by applicable law. This license gives codefuture 
+no rights to such content.
+
+TERMINATION
+
+This agreement will terminate automatically if you fail to 
+comply with the limitations described herein. On termination, 
+you must destroy all copies of the software.
+
+MISCELLANEOUS
+
+Technical support will not be provided for third-party 
+modifications to the code to any license holder. If the 
+Software is modified using a third-party modification 
+instruction or otherwise, technical support may be refused 
+to any license holder. 
+
+PROPRIETARY LABELS
+
+Authorization to remove output of copyright notices can be 
+obtained from codefuture for a one time fee (please check 
+the website for current prices). This fee authorizes you to 
+remove the output of copyright notices: it does not give you 
+authorization to remove any copyright notices in the program 
+source files nor any other rights.

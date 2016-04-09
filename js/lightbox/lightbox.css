@@ -1,0 +1,104 @@
+#lightbox {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 2001;
+	text-align: center;
+	line-height: 0;
+}
+
+#lightbox a img { border: none; }
+
+#outerImageContainer {
+    background-color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #000000;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    width: 250px;
+}
+
+#imageContainer {
+	padding: 10px;
+}
+
+#loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	background: transparent center url(./loading.gif) no-repeat;
+}
+#hoverNav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#imageContainer>#hoverNav { left: 0;}
+#hoverNav a { outline: none;}
+
+#prevLink, #nextLink {
+	width: 49%;
+	height: 100%;
+	background: transparent url(./blank.gif) no-repeat; /* Trick IE into showing hover */
+	display: block;
+}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(./prev.gif) left 55% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(./next.gif) right 55% no-repeat; }
+
+#imageDataContainer {
+    background-color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 3px #000000;
+    font: 10px/1.4em Verdana,Helvetica,sans-serif;
+    margin: 10px auto;
+}
+
+#imageData {padding:10px; color: #666; }
+#imageData #imageDetails { width: 70%; float: left; text-align: left; }	
+#imageData #caption { font-weight: bold;}
+#imageData #numberDisplay { display: block; clear: left; padding-bottom: 1.0em;}
+#imageData #numberDisplay a { color: inherit; padding-left: 5px; padding-right: 5px;}			
+#imageData #bottomNavClose { width: 66px; float: right; padding-bottom: 0.7em; background: url(./closelabel.gif) right 55% no-repeat; padding-top: 1.0em;}	
+		
+#overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+}
+
+.clearfix:after {
+	content: "."; 
+	display: block;
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+}	
+
+#lightboxIframe {
+	display: none;
+}

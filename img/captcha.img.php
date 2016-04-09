@@ -1,0 +1,1 @@
+<?php	define('cfih', 'captcha');	include_once('../lib/captcha.class.php');?>

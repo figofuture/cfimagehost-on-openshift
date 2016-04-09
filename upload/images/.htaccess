@@ -1,0 +1,7 @@
+# If the URI is an image then we allow accesses
+SetEnvIfNoCase Request_URI "\.(gif|jpe?g|png)$" let_me_in
+
+Order Deny,Allow
+Deny from All
+# Allow accesses only if an images was requested
+Allow from env=let_me_in

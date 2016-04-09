@@ -1,0 +1,23 @@
+
+/*************************
+	admin menu bar
+*************************/
+#admin_bar{
+	background:#343434;
+	background:-moz-linear-gradient(top,#4D4D4D 0,#343434 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#4D4D4D),color-stop(100%,#343434));
+	-moz-box-shadow:inset 0 0 1px #666,1px 1px 2px rgba(0,0,0,.65);
+	-webkit-box-shadow:inset 0 0 1px #666,1px 1px 2px rgba(0,0,0,.65);
+	box-shadow:inset 0 0 1px #666,1px 1px 2px rgba(0,0,0,.65);
+	display:block;
+	line-height: 21px;
+	text-shadow:none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:9999;
+}
+#admin_bar .title{color: #fff;font-size: 20px;left: 10px;position: absolute;text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(0, 0, 0, 0.2);top: 3px;}
+#admin_bar ul{font-size: 14px;height: 25px;list-style: none outside none;margin: 0;padding: 3px 20px 2px;width: auto;}
+#admin_bar li {float: right;margin: 0;padding:0px 10px 0px 0px;background:none}
+#admin_bar a {color:#fff;}
