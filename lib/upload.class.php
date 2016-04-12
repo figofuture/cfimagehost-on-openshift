@@ -124,7 +124,8 @@ class upload {
 	public function process($multiupload = null){
 	
 		// fix multiupload $_FILES array
-		if(isset($this->base_source['name'][$multiupload])){
+		//if(isset($this->base_source['name'][$multiupload])){
+                if(!empty($this->base_source['name']) && strlen($this->base_source['name']) >4){
 			$this->source = array(
 								'name'			=> $this->base_source['name'][$multiupload],
 								'type'			=> $this->base_source['type'][$multiupload],
@@ -182,6 +183,8 @@ class upload {
 		fclose($fp);
 	// Check for 404 (file not found).
 		$httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                $content_type = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
+                $content_length = curl_getinfo($ch,CURLINFO_CONTENT_LENGTH_DOWNLOAD);
 		curl_close($ch); 
 		if($httpCode == 404) {
 			@unlink($destination);
@@ -194,7 +197,7 @@ class upload {
 		}
 
 	// set source for file_proces
-		$this->source = Array ('name' =>  basename($this->source),	'type' =>  '' ,	'tmp_name' => $destination ,	'error' =>  0,	'size' => 0 );
+		$this->source = Array ('name' =>  basename($this->source),	'type' =>  $content_type,	'tmp_name' => $destination,	'error' =>  0,	'size' => $content_length );
 
 	// check for errors (if so remove temp image)
 		if(!$this->image_checks()){
