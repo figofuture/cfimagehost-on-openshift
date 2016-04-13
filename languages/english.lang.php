@@ -308,6 +308,7 @@
 	// Google Settings
 	$lang["admin_set_google_setting_des"]		= 'Google analytics and adsent will only be added to the site if you enter your code below';
 	$lang["admin_set_google_analytics_code"]	= 'Google Analytics code';
+        $lang["admin_set_baidu_analytics_code"]        = 'Baidu Analytics code';
 	$lang["admin_set_google_channal_code"]		= 'Adsense Custom channels ID';
 	$lang["admin_set_google_adsense_code"]		= 'Google AdSense code';
 	// Save Errors

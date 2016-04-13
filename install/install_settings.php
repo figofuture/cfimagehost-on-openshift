@@ -73,6 +73,7 @@
 							'SET_MAX_BANDWIDTH'		=>(isset($settings['SET_MAX_BANDWIDTH'])	?$settings['SET_MAX_BANDWIDTH']:1024),
 							'SET_VERSION'			=>$SET_VERSION,
 							'SET_GOOGLE_ANALYTICS'	=>(isset($settings['SET_GOOGLE_ANALYTICS'])	?$settings['SET_GOOGLE_ANALYTICS']:''),
+                                                        'SET_BAIDU_ANALYTICS'  =>(isset($settings['SET_BAIDU_ANALYTICS'])     ?$settings['SET_BAIDU_ANALYTICS']:''),
 							'SET_GOOGLE_ADS'		=>(isset($settings['SET_GOOGLE_ADS'])		?$settings['SET_GOOGLE_ADS']:''),
 							'SET_GOOGLE_CHANNAL'	=>(isset($settings['SET_GOOGLE_CHANNAL'])	?$settings['SET_GOOGLE_CHANNAL']:''),
 							'SET_BANDWIDTH_RESET'	=>(isset($settings['SET_BANDWIDTH_RESET'])	?$settings['SET_BANDWIDTH_RESET']:'m'),

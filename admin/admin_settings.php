@@ -101,6 +101,7 @@
 		$settings['SET_MAX_UPLOAD']			= (int)cl($_POST['setMaxUpload']);
 		$settings['SET_THEME']				= cl($_POST['setTheme']);
 		$settings['SET_GOOGLE_ANALYTICS']	= cl($_POST['setAnalytics']);
+                $settings['SET_BAIDU_ANALYTICS']       = cl($_POST['setBaiduAnalytics']);
 		$settings['SET_GOOGLE_CHANNAL']		= cl($_POST['setGoogleCha']);
 		$settings['SET_GOOGLE_ADS']			= cl($_POST['setGoogleAds']);
 		$settings['SET_BANDWIDTH_RESET']	= cl($_POST['setBandwidthReset']);
@@ -273,6 +274,7 @@
 						optionTitle(_T("admin_set_title_google_setting"));
 						optionDescription(_T("admin_set_google_setting_des"));
 						optionText(_T("admin_set_google_analytics_code"),'setAnalytics',$settings['SET_GOOGLE_ANALYTICS'],'long');
+                                                optionText(_T("admin_set_baidu_analytics_code"),'setBaiduAnalytics',$settings['SET_BAIDU_ANALYTICS'],'long');
 						optionText(_T("admin_set_google_channal_code"),'setGoogleCha',$settings['SET_GOOGLE_CHANNAL'],'long');
 						optionText(_T("admin_set_google_adsense_code"),'setGoogleAds',$settings['SET_GOOGLE_ADS'],'long');
 						submitButton();
