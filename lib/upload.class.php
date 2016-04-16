@@ -125,7 +125,7 @@ class upload {
 	
 		// fix multiupload $_FILES array
 		//if(isset($this->base_source['name'][$multiupload])){
-                if(!empty($this->base_source['name']) && strlen($this->base_source['name']) >4){
+                if(is_array($this->base_source)){
 			$this->source = array(
 								'name'			=> $this->base_source['name'][$multiupload],
 								'type'			=> $this->base_source['type'][$multiupload],
