@@ -120,7 +120,7 @@
 						<a href="admin.php?act=images&ip='.$image['ip'].'" class="tip" title="'.sprintf(_T("admin_ilp_ipsearch_alt"),$image['ip']).'"><img src="img/user-search.png" height="16" width="16" border="0" alt="'.sprintf(_T("admin_ilp_ipsearch_alt"),$image['ip']).'" /></a>
 					</td>
 					<td>'.date('d M y',$image['added']).'</td>
-					<td><a href="'.imageAddress(1,$image).'" target="_blank" title="'.$image['name'].'" img_src="<img src=\''.imageAddress(3,$image).'\'/>" class="imglink img_tooltip lightbox">'.$image['alt'].'</a></td>
+					<td><a href="'.imageAddress(2,$image,"di").'" target="_blank" title="'.$image['name'].'" img_src="<img src=\''.imageAddress(3,$image,"di").'\'/>" class="imglink img_tooltip lightbox">'.$image['alt'].'</a></td>
 					<td>'.$image['lastviewed'].'</td>
 					<td>'.$image['gallery'].'</td>
 					<td>'.$image['hotlink'].'</td>

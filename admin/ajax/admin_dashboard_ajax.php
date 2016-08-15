@@ -139,7 +139,7 @@
 				<div class="quickview tInfo">
 					<h3><?php echo _T("admin_home_by_bandwidth");?></h3>
 					<ul>
-						<li><?php echo _T("admin_home_id");?>: <span class="number"><a href="<?php echo imageAddress(1,$mostBwImage);?>"  target="_blank" title="<?php echo $mostBwImage['alt'];?>" img_src="<img src='<?php echo imageAddress(3,$mostBwImage);?>' />" class="imglink img_tooltip lightbox"><?php echo $mostBwImage['id'];?></a></span></li>
+						<li><?php echo _T("admin_home_id");?>: <span class="number"><a href="<?php echo imageAddress(1,$mostBwImage,"di");?>"  target="_blank" title="<?php echo $mostBwImage['alt'];?>" img_src="<img src='<?php echo imageAddress(3,$mostBwImage,"di");?>' />" class="imglink img_tooltip lightbox"><?php echo $mostBwImage['id'];?></a></span></li>
 						<li><?php echo _T("admin_home_name");?>: <span class="number"> <?php echo $mostBwImage['alt'];?></span></li>
 						<li><?php echo _T("admin_home_uploaded_date");?>: <span class="number"> <?php echo date("d M Y",$mostBwImage['added']);?></span></li>
 						<li><?php echo _T("admin_home_bandwidth");?>: <span class="number"> <?php echo format_size($mostBwImage['bandwidth']);?></span></li>
@@ -149,7 +149,7 @@
 				<div class="quickview tInfo">
 					<h3><?php echo _T("admin_home_by_hotlink_views");?></h3>
 					<ul>
-						<li><?php echo _T("admin_home_id");?>: <span class="number"><a href="<?php echo imageAddress(1,$mostViewImage);?>"  target="_blank" title="<?php echo $mostViewImage['alt'];?>" img_src="<img src='<?php echo imageAddress(3,$mostViewImage)?>' />" class="imglink img_tooltip lightbox"><?php echo $mostViewImage['id'];?></a></span></li>
+						<li><?php echo _T("admin_home_id");?>: <span class="number"><a href="<?php echo imageAddress(1,$mostViewImage,"di");?>"  target="_blank" title="<?php echo $mostViewImage['alt'];?>" img_src="<img src='<?php echo imageAddress(3,$mostViewImage,"di")?>' />" class="imglink img_tooltip lightbox"><?php echo $mostViewImage['id'];?></a></span></li>
 						<li><?php echo _T("admin_home_name");?>: <span class="number"> <?php echo $mostViewImage['alt'];?></span></li>
 						<li><?php echo _T("admin_home_uploaded_date");?>: <span class="number"> <?php echo date("d M Y",$mostViewImage['added']);?></span></li>
 						<li><?php echo _T("admin_home_bandwidth");?>: <span class="number"> <?php echo format_size($mostViewImage['bandwidth']);?></span></li>
@@ -163,7 +163,7 @@
 				<div class="quickview tInfo">
 					<h3><?php echo _T("admin_home_by_bandwidth");?></h3>
 					<ul>
-						<li><?php echo _T("admin_home_id");?>: <span class="number"><a href="<?php echo imageAddress(1,$lr_mostBwImage);?>"  target="_blank" title="<?php echo $lr_mostBwImage['alt'];?>" img_src="<img src='<?php echo imageAddress(3,$lr_mostBwImage);?>' />" class="imglink img_tooltip lightbox"><?php echo $lr_mostBwImage['id'];?></a></span></li>
+						<li><?php echo _T("admin_home_id");?>: <span class="number"><a href="<?php echo imageAddress(1,$lr_mostBwImage,"di");?>"  target="_blank" title="<?php echo $lr_mostBwImage['alt'];?>" img_src="<img src='<?php echo imageAddress(3,$lr_mostBwImage,"di");?>' />" class="imglink img_tooltip lightbox"><?php echo $lr_mostBwImage['id'];?></a></span></li>
 						<li><?php echo _T("admin_home_name");?>: <span class="number"> <?php echo $lr_mostBwImage['alt'];?></span></li>
 						<li><?php echo _T("admin_home_uploaded_date");?>: <span class="number"> <?php echo date("d M Y",$lr_mostBwImage['added']);?></span></li>
 						<li><?php echo _T("admin_home_bandwidth");?>: <span class="number"> <?php echo format_size($lr_mostBwImage['lr_bandwidth']);?></span></li>
@@ -173,7 +173,7 @@
 				<div class="quickview tInfo">
 					<h3><?php echo _T("admin_home_by_hotlink_views");?></h3>
 					<ul>
-						<li><?php echo _T("admin_home_id");?>: <span class="number"><a href="<?php echo imageAddress(1,$lr_mostViewImage);?>"  target="_blank" title="<?php echo $lr_mostViewImage['alt'];?>" img_src="<img src='<?php echo imageAddress(3,$lr_mostViewImage)?>' />" class="imglink img_tooltip lightbox"><?php echo $lr_mostViewImage['id'];?></a></span></li>
+						<li><?php echo _T("admin_home_id");?>: <span class="number"><a href="<?php echo imageAddress(1,$lr_mostViewImage,"di");?>"  target="_blank" title="<?php echo $lr_mostViewImage['alt'];?>" img_src="<img src='<?php echo imageAddress(3,$lr_mostViewImage,"di")?>' />" class="imglink img_tooltip lightbox"><?php echo $lr_mostViewImage['id'];?></a></span></li>
 						<li><?php echo _T("admin_home_name");?>: <span class="number"> <?php echo $lr_mostViewImage['alt'];?></span></li>
 						<li><?php echo _T("admin_home_uploaded_date");?>: <span class="number"> <?php echo date("d M Y",$lr_mostViewImage['added']);?></span></li>
 						<li><?php echo _T("admin_home_bandwidth");?>: <span class="number"> <?php echo format_size($lr_mostViewImage['lr_bandwidth']);?></span></li>

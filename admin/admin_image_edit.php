@@ -61,7 +61,7 @@
 	require CFADMINPATH.'admin_page_header.php';
 ?>
 <!-- admin image edit -->
-			<div class="ibox top_img"><a href="<?php echo imageAddress(1,$edit_image);?>" target="_blank" title="<?php echo $edit_image['alt'];?>" class="imglink lightbox"><img src="<?php echo imageAddress(2,$edit_image);?>" title="<?php echo $edit_image['alt'];?>" class=" imgedit_img" /></a></div>
+			<div class="ibox top_img"><a href="<?php echo imageAddress(1,$edit_image,"di");?>" target="_blank" title="<?php echo $edit_image['alt'];?>" class="imglink lightbox"><img src="<?php echo imageAddress(2,$edit_image,"di");?>" title="<?php echo $edit_image['alt'];?>" class=" imgedit_img" /></a></div>
 			<div class="ibox"><h2><?php echo _T("admin_iep_bandwidth_views");?></h2>
 				<div class="quickview">
 					<h3><?php echo _T("admin_iep_since_uploaded");?></h3>
