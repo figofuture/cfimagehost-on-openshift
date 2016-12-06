@@ -5,14 +5,14 @@
 > CF Image Host is a free, simple and easy to use PHP Image hosting script, which aims to make it easy to setup and maintain a photo/image hosting/sharing site. With thumbnails and social bookmarking links generated for each image, sharing your images or photos across the web couldn't be made any easier.
 
 # Images of some of the themes  
-![](http://www.codefuture.co.uk/image/themes/theme_sky_home_page.png)  
-![](http://www.codefuture.co.uk/image/themes/theme_sky_gallery_page.png)  
-![](http://www.codefuture.co.uk/image/themes/theme_original_home_page.png)  
-![](http://www.codefuture.co.uk/image/themes/theme_original_gallery_page.png)  
-![](http://www.codefuture.co.uk/image/themes/theme_imgur_home_page.png)  
-![](http://www.codefuture.co.uk/image/themes/theme_imgur_gallery_page.png)  
-![](http://www.codefuture.co.uk/image/themes/theme_carbonfiber_home_page.png)  
-![](http://www.codefuture.co.uk/image/themes/theme_carbonfiber_gallery_page.png)  
+![](http://images.figotan.org/image.php?di=EMKH)  
+![](http://images.figotan.org/image.php?di=G6QD)  
+![](http://images.figotan.org/image.php?di=XL0Z)  
+![](http://images.figotan.org/image.php?di=4YXN)  
+![](http://images.figotan.org/image.php?di=EOQP)  
+![](http://images.figotan.org/image.php?di=VNF8)  
+![](http://images.figotan.org/image.php?di=TE4H)  
+![](http://images.figotan.org/image.php?di=KJ7T)  
 
 # Features in CF Image Host  
 
@@ -53,10 +53,10 @@
  - 'Edit image' feature for the admin to change the description/title and the image privacy settings
  
 # Admin Images  
-![](http://www.codefuture.co.uk/image/cfih1.65_admin/admin_settings.png)  
-![](http://www.codefuture.co.uk/image/cfih1.65_admin/admin_image_list.png)  
-![](http://www.codefuture.co.uk/image/cfih1.65_admin/admin_dashboard.png)  
-![](http://www.codefuture.co.uk/image/cfih1.65_admin/admin_ads.png)  
+![](http://images.figotan.org/image.php?di=KP9O)  
+![](http://images.figotan.org/image.php?di=X7NW)  
+![](http://images.figotan.org/image.php?di=JXK8)  
+![](http://images.figotan.org/image.php?di=YADM)  
 
 # Online Demo  
 This hosted [demo](http://images.figotan.org) lets you view and explore the latest version of CF Image Host.  
